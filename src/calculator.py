@@ -33,6 +33,14 @@ def divide(a, b):
     print(f"Result: {result}")
     return result
 
+def power(a,b):
+    return a**b
+
+def square_root(a):
+    if a<0:
+        raise ValueError("cannot square root the given number")
+    return a**0.5
+        
 # TODO: Students will add multiply, divide, power, sqrt functions
 
 if __name__ == "__main__":
